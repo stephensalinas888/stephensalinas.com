@@ -1,0 +1,242 @@
+body {
+	background: orangered;
+	font-family: arial;
+	margin: 0;
+	display: inline;
+}
+
+header {
+	color: black;
+	background-color: black;
+	background-image: url("IMG_0403 (1).png");
+	background-position: center;
+	background-size: 100%;
+	height: 400px;
+	padding: 15px 15px 0px 15px;
+	text-align: center;
+
+}
+
+header h1 {color:green;
+	display: inline;
+	opacity: .8;
+
+}
+header .mobile {
+	display: none;
+}
+
+header .logo a {
+	background-image: url("IMG_1896.jpg");
+	background-position: center;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 150px;
+	position: relative;
+	text-indent: -9999999px;
+	top: -30px;
+  width: 300px;
+}
+
+h2 {color:black;
+	margin: 0;
+	padding: 15px 15px 0px 15px;
+}
+
+nav ul { 
+	margin:0;
+	padding: 0 0 0 15px ;
+	display: inline;
+
+}
+
+nav ul li{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding:5px 15px;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	color:green;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+p { 
+	background-color: green;
+	color:white;
+	list-style-type: none;
+	padding: 10pk;
+
+}
+    
+div  {
+	backround:none;
+	color: black;
+	}
+
+.row {
+
+}
+
+/ * Features * /
+
+.features {
+	background-color: orangered;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;}
+
+.features figure {
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	width: 200px;	
+}
+.features figure img {
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: gray 0 0 10px;
+	width: 200px;
+}
+
+/* Responsive Rules */
+@media screen and (max-width: 650px){
+
+	.features{
+		display: block;
+	}
+} 
+
+.social-icon { 
+
+	color:green;
+	transition: color 0.2s;
+	text-decoration: none;
+	margin: 0px, 10px;
+
+ }
+
+ .social-icon:hover { 
+
+ color: #aaaaaa 
+}
+
+.contact-box
+{
+	width: 500px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+form {
+	padding: 35px;
+}
+
+.input-field
+
+{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+
+.textarea-field {
+	height: 150px;
+	padding-top: 10px;
+}
+
+.btn {
+	border-radius: 20px;
+	color: #fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font size: 12px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Videos */
+
+.1_vid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+	height:auto;
+}
+
+/* Content */
+
+.mainContent{
+	overflow: hidden;
+	clear: both;
+	line-height: 25px;
+}
+
+.content {
+	clear: both;
+	width: 60%;
+	margin: 5%;
+}
+
+.topocontent:{
+	background-color: #FFF;
+	padding: 3% 5%;
+	margin-bottom: 30%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	font-size: 20px;
+	padding: 20px 20px;
+  text-align: center;
+}
+
+/  Responsive Rules  /
+
+@media screen and (max-width:750px): { 
+
+	  header {
+		    height:200px;
+	}
+    header .mobile {
+      display: inline-block; 
+    }
+    header .desktop {
+
+		display: none;
+    }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+
+// X-Small devices (landscape phones, 576px and up)
+// Medium Devices (tablets, 768px and up)
+@media (min-width:768px){}
+// Large devices (desktops 992px and up)
+@media (min-width: 992px){}
+//X-Large devices (larger desktops, 1200px and up)
+@media (min-width: 1200px){}
+//XX-Large devices (larger desktops, 1400px and up)
+@media (min-width:1400px){}
